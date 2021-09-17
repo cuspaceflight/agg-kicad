@@ -1,0 +1,27 @@
+datasheet: https://www.ti.com/lit/ds/symlink/sn65lvdt14.pdf
+description: LVDS transceiver
+footprint: cusf:TSSOP-20
+name: SN65LVDT14
+ordercodes:
+- [Mouser, '595-SN65LVDT14PW']
+pins:
+- - - [VCC, 13, pwrin]
+    - [VCC, 17, pwrin]
+  - - [ A1,  1, in]
+    - [ B1,  2, in]
+    - [ A2,  3, in]
+    - [ B2,  4, in]
+    - [ A3,  5, in]
+    - [ B3,  6, in]
+    - [ A4,  7, in]
+    - [ B4,  8, in]
+  - - [ Y5,  9, out]
+    - [ Z5, 10, out]
+- - - [ R1, 20, out]
+    - [ R2, 18, out]
+    - [ R3, 16, out]
+    - [ R4, 14, out]
+  - - [ D5, 12, in]
+  - - [GND, 11, pwrin]
+    - [GND, 15, pwrin]
+    - [GND, 19, pwrin]

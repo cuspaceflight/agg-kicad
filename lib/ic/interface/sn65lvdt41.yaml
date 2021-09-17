@@ -1,0 +1,27 @@
+datasheet: https://www.ti.com/lit/ds/symlink/sn65lvdt41.pdf
+description: LVDS transceiver
+footprint: cusf:TSSOP-20
+name: SN65LVDT41
+ordercodes:
+- [Mouser, '595-SN65LVDT41PW']
+pins:
+- - - [VCC,  4, pwrin]
+    - [VCC,  8, pwrin]
+  - - [ D1,  1, in]
+    - [ D2,  3, in]
+    - [ D3,  5, in]
+    - [ D4,  7, in]
+  - - [ R5,  9, out]
+  - - [GND,  2, pwrin]
+    - [GND,  6, pwrin]
+    - [GND, 10, pwrin]
+- - - [ Y1, 20, out]
+    - [ Z1, 19, out]
+  - - [ Y2, 18, out]
+    - [ Z2, 17, out]
+  - - [ Y3, 16, out]
+    - [ Z3, 15, out]
+  - - [ Y4, 14, out]
+    - [ Z4, 13, out]
+  - - [ A5, 12, in]
+    - [ B5, 11, in]
